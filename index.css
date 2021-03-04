@@ -104,28 +104,28 @@ body {
   background-color: white;
   width: 2rem;
   border-radius: 3rem;
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+}
+
+.text_content_one {
   animation: fadeIn ease 6s;
   -webkit-animation: fadeIn ease 6s;
 }
 
-.text_content_one {
+.text_content_two {
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;
 }
 
-.text_content_two {
+.text_content_three {
   animation: fadeIn ease 10s;
   -webkit-animation: fadeIn ease 10s;
 }
 
-.text_content_three {
+.text_content_four {
   animation: fadeIn ease 12s;
   -webkit-animation: fadeIn ease 12s;
-}
-
-.text_content_four {
-  animation: fadeIn ease 14s;
-  -webkit-animation: fadeIn ease 14s;
 }
 
 @keyframes fadeIn {
@@ -179,8 +179,8 @@ body {
   margin-right: 10rem;
   margin-top: 90rem;
   z-index: 1;
-  animation: fadeIn ease 17s;
-  -webkit-animation: fadeIn ease 17s;
+  animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s;
 }
 
 .buy_tickets {
@@ -199,7 +199,7 @@ body {
   animation-duration: 1.5s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
-  animation-delay: 10s;
+  animation-delay: 6s;
 }
 @keyframes floating {
   0% {
@@ -237,8 +237,8 @@ body {
   padding: 6px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  animation: fadeIn ease 19s;
-  -webkit-animation: fadeIn ease 19s;
+  animation: fadeIn ease 17s;
+  -webkit-animation: fadeIn ease 17s;
 }
 
 .second_page_container {
@@ -502,16 +502,98 @@ body {
   background-color: rgb(245, 242, 236);
 }
 
+.dance_svartvit_container {
+  display: flex;
+  justify-content: center;
+}
+
+.dance_svartvit {
+  width: 100%;
+  height: 28rem;
+}
+
 .footer_container {
   background-color: rgb(37, 36, 35);
-  height: 10rem;
+  height: 15rem;
   width: 100%;
   position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 4.1rem;
 }
 
 .footer_holder {
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
+  height: 15rem;
+}
+
+.footer_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 10rem;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.list_item {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.list_line {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(37, 36, 35);
+  width: 100%;
+}
+
+.footer_development {
+  color: white;
+  font-size: 10px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer_image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.am_video {
+  margin-top: 1rem;
+}
+
+.fifth_page_text_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 15%;
+  width: 100%;
+  margin: 0;
+}
+
+.fifth_page_text {
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  text-decoration: underline;
+  font-size: 1.8;
+  margin-top: 2rem;
 }
