@@ -11,6 +11,23 @@ body {
   height: 100vh;
 }
 
+.yellow_banner_one {
+  width: 100%;
+  margin-right: 0.6rem;
+  margin-bottom: 12rem;
+}
+.yellow_banner_two {
+  width: 100%;
+  margin-right: 0.6rem;
+  margin-bottom: 2rem;
+  margin-top: 4.2rem;
+}
+.yellow_banner_four {
+  width: 100%;
+  margin-right: 0.6rem;
+}
+/* First page */
+
 .first_page_container {
   display: flex;
   justify-content: center;
@@ -241,9 +258,15 @@ body {
   -webkit-animation: fadeIn ease 17s;
 }
 
+/* Second page */
+
 .second_page_container {
   height: 100vh;
   background-color: rgb(245, 242, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .dance_title_container {
@@ -257,8 +280,9 @@ body {
 
 .dance_title {
   font-family: "Bebas Neue", cursive;
+  font-size: 28px;
   font-weight: 400;
-  margin-top: 8rem;
+  margin-top: -15rem;
 }
 
 .dance_text {
@@ -273,8 +297,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
   flex-direction: column;
+  margin-bottom: 3rem;
 }
 
 .button_box_one,
@@ -308,13 +332,15 @@ body {
   font-weight: 100;
 }
 
-.yellow_banner {
-  margin-right: 0.6rem;
-}
+/* Third page */
 
 .third_page_container {
   height: 100vh;
   background-color: rgb(245, 242, 236);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .arrow_down_container_two {
@@ -322,7 +348,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-left: 12.4rem;
+  margin-top: 43rem;
 }
 
 .arrow_down_two {
@@ -342,8 +368,9 @@ body {
 }
 
 .publik_svartvit {
-  height: 15rem;
+  height: 12rem;
   width: 100%;
+  object-fit: cover;
 }
 
 .vinyl_case_container {
@@ -355,7 +382,8 @@ body {
   background-color: rgb(254, 184, 0);
   border-radius: 30rem;
   width: 23rem;
-  margin-left: 1.5rem;
+  margin-bottom: 8rem;
+  margin-top: 4rem;
 }
 .vinyl_case {
   height: 15rem;
@@ -368,6 +396,8 @@ body {
   font-family: "Fira Sans", sans-serif;
   font-weight: 100;
 }
+
+/* Fourth page */
 
 .fourth_page_container {
   height: 100vh;
@@ -383,8 +413,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-left: 12.4rem;
-  margin-top: 1.5rem;
+  margin-top: 43rem;
 }
 
 .the_night_container {
@@ -497,6 +526,8 @@ body {
   margin-top: 12.5rem;
 }
 
+/* Fifth page */
+
 .fifth_page_container {
   height: 100vh;
   background-color: rgb(245, 242, 236);
@@ -521,7 +552,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: 4.1rem;
+  margin-top: 9rem;
 }
 
 .footer_holder {
@@ -584,7 +615,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   height: 15%;
   width: 100%;
   margin: 0;
@@ -594,6 +624,206 @@ body {
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
   text-decoration: underline;
-  font-size: 1.8;
-  margin-top: 2rem;
+  font-size: 2rem;
+  margin-top: 3.5rem;
+  text-shadow: 1.5px 1.5px 0.5px rgb(253, 183, 19);
+  animation-name: floatin;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  z-index: 2;
+  position: absolute;
+}
+
+@keyframes floatin {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+    transform: translate(0px, 10px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.white_tshirt_container  {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.white_tshirt {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+/* Desktop Mode */
+
+@media (min-width: 415px) {
+  /* Page one */
+
+  .vinyl_container {
+    margin-left: 5rem;
+  }
+
+  .vinyl_disc {
+    height: 73rem;
+    width: 110rem;
+  }
+
+  .am_logo_container {
+    margin-top: -25rem;
+  }
+  .am_logo {
+    width: 40rem;
+    height: 20rem;
+  }
+
+  .text_content_container {
+    margin-top: 12rem;
+    gap: 1.5rem;
+  }
+
+  .text_content_one,
+  .text_content_two,
+  .text_content_three,
+  .text_content_four {
+    font-size: 25px;
+  }
+
+  .tickets_container {
+    margin-right: 35rem;
+    margin-top: 95rem;
+  }
+
+  .arrow_down_container {
+    margin-top: 50rem;
+  }
+
+  /* Page two */
+
+  .dance_title {
+    font-size: 4rem;
+  }
+  .dance_text {
+    margin-top: 3.5rem;
+    line-height: 1.5rem;
+    width: 40rem;
+    font-size: 18px;
+  }
+
+  .button_container {
+    margin-bottom: 4rem;
+  }
+
+  .button_box_one,
+  .button_box_two,
+  .button_box_three {
+    height: 6rem;
+    width: 28rem;
+  }
+  .arrow_down_container_two {
+    margin-bottom: 1rem;
+  }
+
+  /* Third page */
+
+  .yellow_banner_two {
+    margin-top: 0rem;
+  }
+
+  .box_title {
+    font-size: 23px;
+  }
+
+  .box_text {
+    font-size: 14px;
+    margin-top: 2.2rem;
+  }
+  .publik_svartvit {
+    height: 20rem;
+    object-fit: cover;
+    margin-top: -1rem;
+  }
+
+  .vinyl_case_container {
+    margin-top: 1rem;
+    height: 25rem;
+    width: 25rem;
+    margin-bottom: 4rem;
+  }
+  .vinyl_case {
+    height: 16.5rem;
+  }
+
+  .vinyl_case_text {
+    margin-bottom: 5rem;
+    text-align: center;
+    width: 16.5rem;
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 100;
+  }
+
+  .arrow_down_two {
+    margin-top: 8rem;
+  }
+
+  /* Fourth page */
+
+  .the_night_title {
+    font-size: 4rem;
+  }
+
+  .the_night_text {
+    font-size: 18px;
+  }
+  .schema_list {
+    display: flex;
+    align-items: center;
+  }
+  .number_align,
+  .text_align {
+    font-size: 18px;
+    text-align: right;
+  }
+  .arrow_down_container_four {
+    margin-bottom: 6rem;
+    height: 0.5rem;
+  }
+
+  /* Fifth page */
+
+  .fifth_page_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .white_tshirt {
+    width: 26rem;
+    height: 25rem;
+    border-radius: 20rem;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  .white_tshirt_container  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+
+  .yellow_banner_four {
+    margin-top: -2.2rem;
+  }
+
+  .fifth_page_text {
+    margin-top: 0rem;
+  }
+
+  .footer_container {
+    margin-top: 4.4rem;
+  }
 }

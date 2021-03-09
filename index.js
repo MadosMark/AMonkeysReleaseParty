@@ -18,7 +18,6 @@ function animationChanges() {
 
 
 
-
 // const params = new URLSearchParams(window.location.search);
 
 // https://reactgo.com/javascript-get-query-parameters/?Namn=Mark
