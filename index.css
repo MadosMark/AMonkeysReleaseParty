@@ -13,16 +13,16 @@ body {
 
 @font-face {
   font-family: "Bebas";
-  src: url(/Fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+  src: url(/Fonts/Bebas_Neue/BebasNeue-Regular.woff2);
 }
 @font-face {
   font-family: "Fira";
-  src: url(/Fonts/Fira_Sans/FiraSans-Thin.ttf);
+  src: url(/Fonts/Fira_Sans/FiraSans-Thin.woff2);
 }
 
 @font-face {
   font-family: "Fira-bold";
-  src: url(/Fonts/Fira_Sans/FiraSans-Medium.ttf);
+  src: url(/Fonts/Fira_Sans/FiraSans-Medium.woff2);
 }
 
 .yellow_banner_one {
