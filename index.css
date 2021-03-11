@@ -53,6 +53,16 @@ body {
 }
 /* First page */
 
+.arrow_tickets_container {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  margin-right: 5rem;
+  width: 50%;
+  height: 2rem;
+  display: flex;
+}
+
 .first_page_container {
   display: flex;
   justify-content: center;
@@ -211,6 +221,26 @@ body {
     opacity: 1;
   }
 }
+
+.text_welcome {
+  margin-top: -64rem;
+  margin-left: -5rem;
+  font-size: 16px;
+  font-family: "Bebas";
+  transform: rotate(-10deg);
+}
+
+.arrow_tickets {
+  height: 2rem;
+  width: 2rem;
+  z-index: 2;
+  margin-top: -62rem;
+  margin-left: 1rem;
+  transform: rotate(-42deg);
+
+  /* animation: fadeIn ease 18s;
+  -webkit-animation: fadeIn ease 18s; */
+}
 .tickets_container {
   height: 3rem;
   width: 3rem;
@@ -221,8 +251,8 @@ body {
   margin-right: 10rem;
   margin-top: 90rem;
   z-index: 1;
-  animation: fadeIn ease 15s;
-  -webkit-animation: fadeIn ease 15s;
+  /* animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s; */
 }
 
 .buy_tickets {
@@ -424,7 +454,7 @@ body {
   background-color: rgb(254, 184, 0);
   border-radius: 30rem;
   width: 23rem;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
   margin-top: 4rem;
 }
 .vinyl_case {
