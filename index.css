@@ -11,20 +11,45 @@ body {
   height: 100vh;
 }
 
+@font-face {
+  font-family: "Bebas";
+  src: url(/Fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: "Fira";
+  src: url(/Fonts/Fira_Sans/FiraSans-Thin.ttf);
+}
+
+@font-face {
+  font-family: "Fira-bold";
+  src: url(/Fonts/Fira_Sans/FiraSans-Medium.ttf);
+}
+
 .yellow_banner_one {
   width: 100%;
   margin-right: 0.6rem;
   margin-bottom: 12rem;
+  position: relative;
+  top: 0px;
 }
 .yellow_banner_two {
   width: 100%;
   margin-right: 0.6rem;
-  margin-bottom: 2rem;
-  margin-top: 4.2rem;
+  position: relative;
+  top: 0px;
+}
+.yellow_banner_three {
+  width: 100%;
+  margin-right: 0.6rem;
+  position: relative;
+  top: 5px;
 }
 .yellow_banner_four {
   width: 100%;
   margin-right: 0.6rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  top: 5px;
 }
 /* First page */
 
@@ -114,7 +139,7 @@ body {
 .text_content_four {
   color: white;
   font-size: 19px;
-  font-family: "Bebas Neue", cursive;
+  font-family: Bebas;
 }
 
 .line_text_title {
@@ -233,7 +258,7 @@ body {
 .tickets_text {
   text-align: center;
   font-size: 16px;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas";
   font-weight: 400;
   transform: rotate(-10deg);
   text-decoration: none;
@@ -279,7 +304,7 @@ body {
 }
 
 .dance_title {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas";
   font-size: 28px;
   font-weight: 400;
   margin-top: -15rem;
@@ -289,7 +314,7 @@ body {
   margin-top: 2rem;
   text-align: center;
   line-height: 1.3rem;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira";
   font-weight: 100;
 }
 
@@ -311,11 +336,28 @@ body {
   width: 17.5rem;
   background-color: rgb(37, 36, 35);
   margin: 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.button_box_one:hover,
+.button_box_two:hover,
+.button_box_three:hover {
+  box-shadow: 0px 3px 5px rgba(128, 128, 128, 0.562);
+  transform: scale(1.1);
+}
+
+.fa-facebook {
+  font-size: 18px;
+  margin: 2px;
+}
+.fa-twitter {
+  font-size: 18px;
+  margin: 2px;
 }
 
 .box_title {
   color: white;
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas";
   font-weight: 400;
   font-size: 18px;
   margin-bottom: 2.5rem;
@@ -324,12 +366,11 @@ body {
 
 .box_text {
   color: white;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira", sans-serif;
   font-size: 12px;
   margin-top: 1.5rem;
   text-align: center;
   padding: 1rem;
-  font-weight: 100;
 }
 
 /* Third page */
@@ -349,6 +390,7 @@ body {
   align-items: center;
   position: absolute;
   margin-top: 43rem;
+  height: 1rem;
 }
 
 .arrow_down_two {
@@ -393,8 +435,7 @@ body {
   margin-bottom: 5rem;
   text-align: center;
   width: 16.5rem;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 100;
+  font-family: "Fira", sans-serif;
 }
 
 /* Fourth page */
@@ -424,7 +465,7 @@ body {
 }
 
 .the_night_title {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas";
   font-weight: 400;
   margin-top: 1rem;
 }
@@ -433,8 +474,8 @@ body {
   margin-top: 2rem;
   text-align: center;
   line-height: 1.3rem;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 100;
+  font-family: "Fira", sans-serif;
+
   width: 24rem;
 }
 
@@ -447,7 +488,7 @@ body {
   margin-left: 1rem;
   list-style: none;
   text-decoration: none;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira", sans-serif;
   font-weight: 400;
   z-index: 1;
 }
@@ -456,18 +497,18 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 100;
+  font-family: "Fira";
 }
 
 .number_align {
   display: flex;
   flex-direction: row;
   text-indent: 5px;
+  font-family: "Fira-bold";
 }
 
 .text_align {
-  font-weight: 100;
+  font-family: "Fira";
 }
 
 .buy_tickets_container {
@@ -487,6 +528,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.buy_tickets_button:hover {
+  box-shadow: 0px 3px 5px rgba(128, 128, 128, 0.562);
+  transform: scale(1.1);
 }
 
 .buy_tickets_button_two {
@@ -496,6 +543,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+.buy_tickets_button_two:hover {
+  box-shadow: 0px 3px 5px rgba(128, 128, 128, 0.562);
+  transform: scale(1.1);
 }
 
 .buy_tickets_button_three {
@@ -505,17 +557,26 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.buy_tickets_button_three:hover {
+  box-shadow: 0px 3px 5px rgba(128, 128, 128, 0.562);
+  transform: scale(1.1);
 }
 
 .buy_tickets_text {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas";
   font-size: 20px;
+  text-decoration: none;
+  color: black;
 }
 
 .buy_tickets_text_two {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas";
   font-size: 20px;
   color: white;
+  text-decoration: none;
 }
 
 .arrow_down_container_four {
@@ -524,6 +585,7 @@ body {
   align-items: center;
   position: absolute;
   margin-top: 12.5rem;
+  height: 1rem;
 }
 
 /* Fifth page */
@@ -577,8 +639,8 @@ body {
   text-decoration: none;
   list-style: none;
   color: white;
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 100;
+  font-family: "Fira", sans-serif;
+
   font-size: 14px;
 }
 
@@ -592,7 +654,7 @@ body {
 .footer_development {
   color: white;
   font-size: 10px;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Fira", sans-serif;
   font-weight: 100;
   display: flex;
   justify-content: center;
@@ -621,7 +683,7 @@ body {
 }
 
 .fifth_page_text {
-  font-family: "Bebas Neue", cursive;
+  font-family: "Bebas";
   font-weight: 400;
   text-decoration: underline;
   font-size: 2rem;
@@ -702,6 +764,10 @@ body {
 
   /* Page two */
 
+  .yellow_banner_one {
+    margin-top: 0rem;
+  }
+
   .dance_title {
     font-size: 4rem;
   }
@@ -722,8 +788,9 @@ body {
     height: 6rem;
     width: 28rem;
   }
+
   .arrow_down_container_two {
-    margin-bottom: 1rem;
+    margin-top: 43rem;
   }
 
   /* Third page */
@@ -760,8 +827,7 @@ body {
     margin-bottom: 5rem;
     text-align: center;
     width: 16.5rem;
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 100;
+    font-family: "Fira", sans-serif;
   }
 
   .arrow_down_two {
@@ -816,7 +882,7 @@ body {
   }
 
   .yellow_banner_four {
-    margin-top: -2.2rem;
+    margin-top: -2rem;
   }
 
   .fifth_page_text {
@@ -824,6 +890,6 @@ body {
   }
 
   .footer_container {
-    margin-top: 4.4rem;
+    margin-top: 3.7rem;
   }
 }
