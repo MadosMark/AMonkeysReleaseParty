@@ -74,7 +74,7 @@ body {
 
 .vinyl_disc {
   height: 40rem;
-  width: 60rem;
+  width: 40rem;
   animation: rotation 4s ease-in infinite;
   animation-delay: 2s;
   position: absolute;
@@ -725,12 +725,12 @@ body {
   /* Page one */
 
   .vinyl_container {
-    margin-left: 5rem;
+    margin-left: 12rem;
   }
 
   .vinyl_disc {
-    height: 73rem;
-    width: 110rem;
+    height: 70rem;
+    width: 70rem;
   }
 
   .am_logo_container {
