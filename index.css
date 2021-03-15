@@ -25,32 +25,7 @@ body {
   src: url(/Fonts/Fira_Sans/FiraSans-Medium.woff2);
 }
 
-.yellow_banner_one {
-  width: 100%;
-  margin-right: 0.6rem;
-  margin-bottom: 12rem;
-  position: relative;
-  top: 0px;
-}
-.yellow_banner_two {
-  width: 100%;
-  margin-right: 0.6rem;
-  position: relative;
-  top: 0px;
-}
-.yellow_banner_three {
-  width: 100%;
-  margin-right: 0.6rem;
-  position: relative;
-  top: 5px;
-}
-.yellow_banner_four {
-  width: 100%;
-  margin-right: 0.6rem;
-  margin-bottom: 1.5rem;
-  position: relative;
-  top: 5px;
-}
+
 /* First page */
 
 .arrow_tickets_container {
@@ -109,9 +84,10 @@ body {
 .am_logo {
   width: 20rem;
   height: 10rem;
+  margin-left: 3.7rem;
   animation: faderIn ease 5s;
   -webkit-animation: faderIn ease 5s;
-  margin-left: 2.5rem;
+
 }
 
 @keyframes faderIn {
@@ -294,22 +270,22 @@ body {
   color: black;
 }
 
-.arrow_down_container {
+.arrow_down_container_page_one {
   display: flex;
   justify-content: center;
   align-items: center;
   position: absolute;
   margin-top: 42rem;
 }
-.arrow_down {
+.arrow_down_page_one {
   border: solid rgba(37, 36, 35, 1);
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 6px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  animation: fadeIn ease 17s;
-  -webkit-animation: fadeIn ease 17s;
+  /* animation: fadeIn ease 17s;
+  -webkit-animation: fadeIn ease 17s; */
 }
 
 /* Second page */
@@ -321,6 +297,11 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.dance_banner {
+  width: 12rem;
+  margin-right: 0.5rem;
 }
 
 .dance_title_container {
@@ -336,7 +317,7 @@ body {
   font-family: "Bebas";
   font-size: 28px;
   font-weight: 400;
-  margin-top: -15rem;
+  
 }
 
 .dance_text {
@@ -345,6 +326,7 @@ body {
   line-height: 1.3rem;
   font-family: "Fira";
   font-weight: 100;
+  
 }
 
 .button_container {
@@ -352,7 +334,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 3rem;
+  margin-top: 5rem;
 }
 
 .button_box_one,
@@ -366,13 +348,6 @@ body {
   background-color: rgb(37, 36, 35);
   margin: 0.5rem;
   transition: all 0.2s ease-in-out;
-}
-
-.button_box_one:hover,
-.button_box_two:hover,
-.button_box_three:hover {
-  box-shadow: 0px 3px 5px rgba(128, 128, 128, 0.562);
-  transform: scale(1.1);
 }
 
 .fa-facebook {
@@ -402,6 +377,16 @@ body {
   padding: 1rem;
 }
 
+.arrow_down_page_two {
+  margin-bottom: -2rem;
+  border: solid rgba(37, 36, 35, 1);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
 /* Third page */
 
 .third_page_container {
@@ -415,29 +400,10 @@ body {
   flex-direction: column;
   gap: 21rem;
 }
-.yellow_banner_two {
-  margin-bottom: -5rem;
-}
 
-.arrow_down_container_two {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  margin-top: 43rem;
-  height: 1rem;
-}
-.arrow_down_two {
-  border: solid rgba(37, 36, 35, 1);
-  border-width: 0 3px 3px 0;
-  display: inline-block;
-  padding: 6px;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
 
-.arrow_down_two_half {
-  border: solid whitesmoke;
+.arrow_third_page {
+  border: solid rgba(254, 182, 0, 0.89); 
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 6px;
@@ -451,24 +417,37 @@ body {
   align-items: center;
   flex-direction: column;
   height: 50%;
-  background-color: rgba(254, 182, 0, 0.623);
+  background-color: rgba(254, 182, 0, 0.89);
   border-radius: 30rem;
   width: 23rem;
-  margin-top: 0rem;
-  margin-bottom: 5rem;
+  margin-bottom: -10rem;
+  margin-top: 8rem;
 }
+
 .vinyl_case {
-  height: 15rem;
+  width: 24rem;
+  margin-left: 1rem;
 }
 
 .vinyl_case_text {
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
   text-align: center;
-  width: 16.5rem;
+  width: 16rem;
   font-family: "Fira", sans-serif;
+  
 }
 
 /* Fourth page */
+
+.arrow_fourth_page {
+  margin-top: 5rem;
+  border: solid rgba(37, 36, 35, 1);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 
 .fourth_page_container {
   height: 100vh;
@@ -479,25 +458,23 @@ body {
   color: black;
 }
 
-.arrow_down_container_three {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  margin-top: 43rem;
-}
-
 .the_night_container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+.night_banner {
+  width: 7rem;
+  margin-right: 0.5rem;
+}
 
 .the_night_title {
   font-family: "Bebas";
   font-weight: 400;
-  margin-top: 1rem;
+  font-size: 28px;
+  margin-top: 2rem;
+ 
 }
 
 .the_night_text {
@@ -505,7 +482,6 @@ body {
   text-align: center;
   line-height: 1.3rem;
   font-family: "Fira", sans-serif;
-
   width: 24rem;
 }
 
@@ -548,7 +524,7 @@ body {
   flex-direction: column;
   gap: 0.7rem;
   height: 12rem;
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .buy_tickets_button {
@@ -614,7 +590,7 @@ body {
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-top: 12.5rem;
+  margin-top: 9rem;
   height: 1rem;
 }
 
@@ -653,6 +629,8 @@ body {
   margin-top: 6rem;
   clear: both;
   position: relative;
+  margin-top: 8.6rem;
+  
 }
 
 .footer_list {
@@ -697,51 +675,44 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 1.5rem;
-}
-
-.am_video {
-  margin-top: 1rem;
+  width: 100%;
 }
 
 .fifth_page_text_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15%;
+  height: 20%;
   width: 100%;
   margin: 0;
 }
 
+.thirty_banner {
+  width: 13rem;
+  margin-right: 0.3rem;
+  margin-top: 6rem;
+
+}
 .fifth_page_text {
   font-family: "Bebas";
   font-weight: 400;
-  text-decoration: underline;
-  font-size: 2rem;
-  margin-top: 3.5rem;
+  font-size: 28px;
+  margin-top: 4rem;
   z-index: 2;
   position: absolute;
 }
 
-@keyframes floatin {
-  0% {
-    transform: translate(0px, 0px);
-  }
-  50% {
-    transform: translate(0px, 10px);
-  }
-  100% {
-    transform: translate(0px, 0px);
-  }
-}
-.white_tshirt_container  {
+
+.black_white_publik  {
   display: flex;
   justify-content: center;
   width: 100%;
 }
 
-.white_tshirt {
+.dance_publik {
   width: 100%;
-  margin-top: 1rem;
+  object-fit: contain;
+  
 }
 
 /* Desktop Mode */
@@ -750,13 +721,13 @@ body {
   /* Page one */
 
   .vinyl_container {
-    margin-left: 3rem;
+    margin-left: 7rem;
   }
 
   .vinyl_disc {
     height: 70rem;
     width: 70rem;
-    margin-left: 10rem;
+    margin-left: 12rem;
   }
 
   .am_logo_container {
@@ -765,8 +736,8 @@ body {
     margin-top: -25rem;
   }
   .am_logo {
-    width: 40rem;
-    height: 20rem;
+    width: 520px;
+    height: 260px;
   }
 
   .text_content_container {
@@ -786,45 +757,28 @@ body {
     margin-top: 95rem;
   }
 
-  .arrow_down_container {
+  .arrow_down_container_page_one {
     margin-top: 50rem;
   }
 
   /* Page two */
 
-  .yellow_banner_one {
-    margin-top: 0rem;
+  .dance_banner {
+    width: 26rem;
+    margin-right: 0.5rem;
   }
 
   .dance_title {
     font-size: 4rem;
+    margin-top: 4rem;
   }
   .dance_text {
-    margin-top: 3.5rem;
+    margin-top: 4rem;
     line-height: 1.5rem;
     width: 40rem;
     font-size: 18px;
-  }
-
-  .button_container {
-    margin-bottom: 4rem;
-  }
-
-  .button_box_one,
-  .button_box_two,
-  .button_box_three {
-    height: 6rem;
-    width: 28rem;
-  }
-
-  .arrow_down_container_two {
-    margin-top: 43rem;
-  }
-
-  /* Third page */
-
-  .yellow_banner_two {
-    margin-top: -4rem;
+    margin-bottom: 0rem;
+    
   }
 
   .box_title {
@@ -835,15 +789,32 @@ body {
     font-size: 14px;
     margin-top: 2.2rem;
   }
+  .button_container {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  .button_box_one,
+  .button_box_two,
+  .button_box_three {
+    height: 6rem;
+    width: 28rem;
+  }
+
+
+  /* Third page */
+
 
   .vinyl_case_container {
-    margin-top: 1rem;
+    margin-top: 20rem;
     height: 25rem;
     width: 25rem;
     margin-bottom: 4rem;
   }
+
   .vinyl_case {
-    height: 16.5rem;
+    width: 30rem;
+    margin-left: 1rem;
   }
 
   .vinyl_case_text {
@@ -853,22 +824,24 @@ body {
     font-family: "Fira", sans-serif;
   }
 
-  .arrow_down_two {
-    margin-top: 8rem;
+  .arrow_third_page {
+    margin-top: -20rem;
+    margin-bottom: 10rem;
   }
 
-  .arrow_down_two_half {
-    margin-top: 7rem;
-  }
+
 
   /* Fourth page */
 
   .the_night_title {
     font-size: 4rem;
   }
-
+  .night_banner {
+  width: 12rem;
+  }
   .the_night_text {
     font-size: 18px;
+    width: 35rem;
   }
   .schema_list {
     display: flex;
@@ -880,7 +853,7 @@ body {
     text-align: right;
   }
   .arrow_down_container_four {
-    margin-bottom: 6rem;
+    margin-top: 18rem;
     height: 0.5rem;
   }
 
@@ -893,24 +866,25 @@ body {
     flex-direction: column;
   }
 
-  .white_tshirt {
-    width: 26rem;
-    height: 25rem;
-    border-radius: 20rem;
+  .dance_publik{
+    width: 100%;
+    height: 30rem;
     object-position: center;
     object-fit: cover;
   }
 
-  .white_tshirt_container  {
+  .black_white_publik {
     display: flex;
     justify-content: center;
     width: 100%;
     align-items: center;
   }
 
-  .yellow_banner_four {
-    margin-top: -2rem;
+  .thirty_banner {
+    margin-top: 2.5rem;
+    width: 11.5rem;
   }
+  
 
   .fifth_page_text {
     margin-top: 0rem;
