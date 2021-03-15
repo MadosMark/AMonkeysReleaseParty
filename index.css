@@ -406,7 +406,7 @@ body {
 
 .third_page_container {
   height: 100vh;
-  background-image: url(/Pictures/publik_svartvit.jpg);
+  background-image: url(/Pictures/publik_svartvit\ \(1\)\ \(1\).webp);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
@@ -718,11 +718,6 @@ body {
   text-decoration: underline;
   font-size: 2rem;
   margin-top: 3.5rem;
-  text-shadow: 1.5px 1.5px 0.5px rgb(253, 183, 19);
-  animation-name: floatin;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
   z-index: 2;
   position: absolute;
 }
