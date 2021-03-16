@@ -598,7 +598,7 @@ body {
 
 .fifth_page_container {
   height: 100vh;
-  background-image: url(/Pictures/dans_svartvit\ \(2\).webp);
+  background-image: url(/Pictures/dans_svartvit.webp);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -865,7 +865,7 @@ body {
 
   .thirty_banner {
     width: 24rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
   }
   
 
