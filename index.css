@@ -226,8 +226,8 @@ body {
   margin-right: 10rem;
   margin-top: 90rem;
   z-index: 1;
-  animation: fadeIn ease 15s;
-  -webkit-animation: fadeIn ease 15s;
+  /* animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s; */
 }
 
 .buy_tickets {
@@ -598,7 +598,9 @@ body {
 
 .fifth_page_container {
   height: 100vh;
-  background-color: rgb(245, 242, 236);
+  background-image: url(/Pictures/dans_svartvit\ \(2\).webp);
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .dance_svartvit_container {
@@ -629,7 +631,7 @@ body {
   margin-top: 6rem;
   clear: both;
   position: relative;
-  margin-top: 8.6rem;
+  margin-top: 43.6rem;
   
 }
 
@@ -648,7 +650,6 @@ body {
   list-style: none;
   color: white;
   font-family: "Fira", sans-serif;
-
   font-size: 14px;
 }
 
@@ -688,32 +689,23 @@ body {
 }
 
 .thirty_banner {
-  width: 13rem;
+  width: 18rem;
   margin-right: 0.3rem;
-  margin-top: 6rem;
+  margin-top: 23rem;
 
 }
 .fifth_page_text {
   font-family: "Bebas";
   font-weight: 400;
-  font-size: 28px;
-  margin-top: 4rem;
+  font-size: 45px;
+  margin-top: 20rem;
   z-index: 2;
   position: absolute;
+  color: whitesmoke;
+  text-shadow: 1px 1px 5px black;
 }
 
 
-.black_white_publik  {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.dance_publik {
-  width: 100%;
-  object-fit: contain;
-  
-}
 
 /* Desktop Mode */
 
@@ -858,7 +850,7 @@ body {
     font-size: 18px;
   }
   .arrow_down_container_four {
-    margin-top: 18rem;
+    margin-top: 13rem;
     height: 0.5rem;
   }
 
@@ -871,35 +863,124 @@ body {
     flex-direction: column;
   }
 
-  .dance_publik{
-    width: 100%;
-    height: 27rem;
-    object-position: center;
-    object-fit: cover;
-  }
-
-  .black_white_publik {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-
   .thirty_banner {
-    margin-top: 2rem;
-    width: 11.5rem;
+    width: 24rem;
+    margin-bottom: 1.5rem;
   }
   
 
   .fifth_page_text {
-    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+    font-size: 60px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px black;
   }
 
 
-  .footer_container {
+  .footer_holder {
     clear: both;
     position: relative;
-    margin-bottom: 2.6rem;
+    margin-top: 23.8rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .vinyl_case {
+    width: 20rem;
+  }
+  .vinyl_case_container {
+  height: 23rem;
+  width: 22rem;
+  }  
+  .the_night_text {
+    width: 17rem;
+  }
+  .arrow_down_page_one {
+    margin-bottom: 3rem;
+  }
+  .buy_tickets {
+    margin-top: -2rem;
+  }
+  .text_welcome {
+    margin-bottom: 2rem;
+  }
+  .arrow_tickets {
+    margin-bottom: 2rem;
+  }
+  .dance_title {
+    margin-top: 5rem;
+  }
+  .dance_text {
+    margin-top: 1rem;
+  }
+  .button_container {
+    margin-top: 6rem;
+  }
+  .arrow_down_page_two {
+    margin-bottom: 0.3rem;
+  }
+  .arrow_third_page {
+    margin-bottom: 2rem;
+  }
+  .the_night_title {
+    margin-top: 1rem;
+  }
+  .the_night_text {
+    margin-top: 1rem;
+  }
+  .schema_list {
+    margin-top: 1rem;
+    gap: 8px;
+  }
+  .buy_tickets_container {
+    margin-top: 2rem;
+  }
+  .footer_container {
+    margin-top: 36.7rem;
+    
+  }
+  .fifth_page_text {
+    margin-top: 22rem;
+  }
+  .thirty_banner {
+    margin-top: 25rem;
+  }
+}
+@media (min-height: 812px) and (max-width: 376px) {
+  .footer_holder {
+    margin-top: 7.2rem;
+  }
+  .arrow_fourth_page {
+    margin-top: 8rem;
+  }
+  .buy_tickets_container {
+    margin-top: 4rem;
+  }
+  .schema_list {
+    margin-top: 2rem;
+    gap: 1rem;
+  }
+  .arrow_down_page_two {
+    margin-top: 1rem;
+  }
+  .button_container {
+    margin-top: 5rem;
+  }
+  .dance_text {
+    margin-top: 2rem;
+  }
+  .dance_title {
+    margin-top: -2rem;
+  }
+  .fifth_page_text {
+    margin-top: 25rem;
+    font-size: 40px;
+    color: whitesmoke;
+    text-shadow: 1px 1px 5px black;
+  }
+  .thirty_banner {
+    margin-top: 28rem;
+    width: 16rem;
   }
 }
 
@@ -907,7 +988,7 @@ body {
   .footer_container {
     clear: both;
     position: relative;
-    margin-bottom: 9rem;
+    margin-bottom: 38.5rem;
   }
 }
 
@@ -915,7 +996,7 @@ body {
   .footer_container {
     clear: both;
     position: relative;
-    margin-bottom: 7rem;
+    margin-bottom: 38.5rem
   }
 }
 
@@ -923,7 +1004,7 @@ body {
   .footer_container {
     clear: both;
     position: relative;
-    margin-bottom: 7rem;
+    margin-bottom: 38.5rem
   }
 }
 
@@ -931,6 +1012,6 @@ body {
   .footer_container {
     clear: both;
     position: relative;
-    margin-bottom: 7rem;
+    margin-bottom: 38.5rem
   }
 }
