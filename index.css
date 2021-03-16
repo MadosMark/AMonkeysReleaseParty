@@ -226,8 +226,8 @@ body {
   margin-right: 10rem;
   margin-top: 90rem;
   z-index: 1;
-  /* animation: fadeIn ease 15s;
-  -webkit-animation: fadeIn ease 15s; */
+  animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s;
 }
 
 .buy_tickets {
@@ -284,8 +284,8 @@ body {
   padding: 6px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
-  /* animation: fadeIn ease 17s;
-  -webkit-animation: fadeIn ease 17s; */
+  animation: fadeIn ease 17s;
+  -webkit-animation: fadeIn ease 17s;
 }
 
 /* Second page */
@@ -300,6 +300,7 @@ body {
 }
 
 .dance_banner {
+  height: 1rem;
   width: 12rem;
   margin-right: 0.5rem;
 }
@@ -425,6 +426,7 @@ body {
 }
 
 .vinyl_case {
+  height: 100%;
   width: 24rem;
   margin-left: 1rem;
 }
@@ -465,6 +467,7 @@ body {
   flex-direction: column;
 }
 .night_banner {
+  height: 1rem;
   width: 7rem;
   margin-right: 0.5rem;
 }
@@ -676,6 +679,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 1.5rem;
+  height: 100%;
   width: 100%;
 }
 
@@ -689,6 +693,7 @@ body {
 }
 
 .thirty_banner {
+  height: 1rem;
   width: 18rem;
   margin-right: 0.3rem;
   margin-top: 23rem;
@@ -757,6 +762,7 @@ body {
   /* Page two */
 
   .dance_banner {
+    height: 1rem;
     width: 26rem;
     margin-right: 0.5rem;
     
@@ -808,6 +814,7 @@ body {
   }
 
   .vinyl_case {
+    height: 100%;
     width: 30rem;
     margin-left: 1rem;
   }
@@ -833,6 +840,7 @@ body {
     margin-bottom: -0.5rem;
   }
   .night_banner {
+    height: 1rem;
   width: 12rem;
   }
   .the_night_text {
@@ -864,6 +872,7 @@ body {
   }
 
   .thirty_banner {
+    height: 1rem;
     width: 24rem;
     margin-bottom: 0.5rem;
   }
@@ -886,6 +895,7 @@ body {
 
 @media (max-width: 375px) {
   .vinyl_case {
+    height: 100%;
     width: 20rem;
   }
   .vinyl_case_container {
@@ -943,6 +953,7 @@ body {
     margin-top: 22rem;
   }
   .thirty_banner {
+    height: 1rem;
     margin-top: 25rem;
   }
 }
@@ -979,6 +990,7 @@ body {
     text-shadow: 1px 1px 5px black;
   }
   .thirty_banner {
+    height: 1rem;
     margin-top: 28rem;
     width: 16rem;
   }
