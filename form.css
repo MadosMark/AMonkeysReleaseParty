@@ -22,10 +22,10 @@ body {
   background-color: rgb(245, 242, 236);
   overflow: hidden;
 }
-.yellow_banner_one {
-  margin-top: 7rem;
-  margin-bottom: -8rem;
-  width: 100%;
+.yellow_banner {
+  margin-top: -0.5rem;
+  margin-bottom: 2rem;
+  width: 22rem;
 }
 .form_container  {
   height: 100vh;
@@ -37,16 +37,16 @@ body {
   margin: 2rem;
 }
 .title {
-  margin-top: 9rem;
+  margin-top: 3rem;
   font-family: "Bebas";
-  text-decoration: underline;
+  font-size: 35px;
 }
 
 .second_title {
   font-family: "Fira";
   margin-top: 1rem;
   text-align: center;
-  margin-bottom: -1rem;
+  font-size: 30px;
 }
 
 .form-check-label {
@@ -57,12 +57,12 @@ body {
 .form-check-input {
   position: absolute;
   margin-top: 0.3rem;
-  margin-left: 0.5rem !important;
+  margin-right: 2rem;
 }
 .btn-primary {
   width: 8rem;
   margin: 2rem;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   margin-bottom: 9rem;
   margin-left: 8.5rem;
   background-color: rgb(254, 184, 0) !important;
@@ -70,17 +70,55 @@ body {
   border: none !important;
 }
 
-@media (min-width: 415px) {
+@media (max-width: 375px) {
+  .title {
+    margin-top: 9rem;
+    font-size: 26px;
+  }
+  .second_title {
+    font-size: 20px;
+    margin: 0rem;
+  }
   .form-check-label {
-    margin-left: 2rem;
+    width: 20rem;
+  }
+  .form-check-input {
+    margin: 1.5rem !important;
+  }
+  .btn-primary {
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+  }
+  .yellow_banner {
+    width: 16rem;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 736px) {
+  .form-check-label {
+    width: 15rem;
   }
   .btn-primary {
     margin-left: 11rem;
   }
-  .yellow_banner_one {
-    margin-top: 4rem;
+  .yellow_banner {
+    margin-top: -1rem;
+    width: 21em;
+    margin-right: 0.5rem;
   }
   .title {
-    margin-top: 14rem;
+    margin-top: 8rem;
+  }
+  .second_title {
+    font-size: 20px;
+    margin: 0rem;
+  }
+  .btn-primary {
+    margin-left: 3.5rem;
+    margin-top: 1rem;
+  }
+  .form-check-input {
+    margin-right: 1.5rem !important;
+    margin-top: 1rem;
   }
 }
