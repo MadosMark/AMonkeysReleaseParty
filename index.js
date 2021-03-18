@@ -35,7 +35,7 @@ if (name && email) {
 
 // Form
 
-var url = new URL("http://127.0.0.1:5500/form.html");
+var url = new URL("https://am-release-party.netlify.app/form.html");
 
 
 url.searchParams.append('name', name);
