@@ -135,8 +135,8 @@ body {
   background-color: white;
   width: 2rem;
   border-radius: 3rem;
-  animation: fadeIn ease 5s;
-  -webkit-animation: fadeIn ease 5s;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
 }
 
 .text_content_one {
@@ -216,8 +216,8 @@ body {
   margin-top: -62rem;
   margin-left: 1rem;
   transform: rotate(-42deg);
-  animation: fadeIn ease 18s;
-  -webkit-animation: fadeIn ease 18s;
+  animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s;
 }
 .tickets_container {
   height: 3rem;
@@ -229,8 +229,8 @@ body {
   margin-right: 10rem;
   margin-top: 90rem;
   z-index: 1;
-  animation: fadeIn ease 15s;
-  -webkit-animation: fadeIn ease 15s;
+  animation: fadeIn ease 14s;
+  -webkit-animation: fadeIn ease 14s;
 }
 
 .buy_tickets {
@@ -910,7 +910,7 @@ body {
     font-size: 18px;
   }
   .arrow_down_container_four {
-    margin-top: 12rem;
+    margin-top: 20rem;
     height: 0.5rem;
   }
 
@@ -939,7 +939,7 @@ body {
   .footer_holder {
     clear: both;
     position: relative;
-    margin-top: 23.8rem;
+    margin-top: 28.5rem;
   }
 }
 
@@ -1012,7 +1012,7 @@ body {
 }
 @media (min-height: 812px) and (max-width: 376px) {
   .footer_holder {
-    margin-top: 7.2rem;
+    margin-top: 7.3rem;
   }
   .arrow_fourth_page {
     margin-top: 8rem;
