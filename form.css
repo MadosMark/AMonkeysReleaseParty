@@ -6,11 +6,13 @@
 @font-face {
   font-family: "Bebas";
   src: url(/Fonts/Bebas_Neue/BebasNeue-Regular.woff2);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Fira";
   src: url(/Fonts/Fira_Sans/FiraSans-Thin.woff2);
+  font-display: swap;
 }
 
 body {
