@@ -216,8 +216,8 @@ body {
   margin-top: -62rem;
   margin-left: 1rem;
   transform: rotate(-42deg);
-  /* animation: fadeIn ease 18s;
-  -webkit-animation: fadeIn ease 18s; */
+  animation: fadeIn ease 18s;
+  -webkit-animation: fadeIn ease 18s;
 }
 .tickets_container {
   height: 3rem;
@@ -229,8 +229,8 @@ body {
   margin-right: 10rem;
   margin-top: 90rem;
   z-index: 1;
-  /* animation: fadeIn ease 15s;
-  -webkit-animation: fadeIn ease 15s; */
+  animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s;
 }
 
 .buy_tickets {
@@ -711,6 +711,60 @@ body {
 @media (min-width: 415px) {
   /* Page one */
 
+  .js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+
+  .js-scroll.scrolled {
+    opacity: 1;
+  }
+  .scrolled.slide-left {
+    animation: slide-in-left 1s ease-in-out both;
+  }
+  .scrolled.slide-right {
+    animation: slide-in-right 1s ease-in-out both;
+  }
+  .scrolled.fade-in-bottom {
+    animation: fade-in-bottom 1s ease-in-out both;
+  }
+  @keyframes slide-in-left {
+    0% {
+      -webkit-transform: translateX(-100px);
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-right {
+    0% {
+      -webkit-transform: translateX(100px);
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in-bottom {
+    0% {
+      -webkit-transform: translateY(50px);
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
   .vinyl_container {
     margin-left: 7rem;
   }
@@ -752,7 +806,7 @@ body {
   }
 
   .tickets_container {
-    margin-right: 35rem;
+    margin-right: 27rem;
     margin-top: 95rem;
   }
 
