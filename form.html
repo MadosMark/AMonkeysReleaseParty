@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anmäl dig här!</title>
+    <title>Köp biljetter här!</title>
     <link rel="stylesheet" href="form.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="shortcut icon" type="image/jpg" href="/Pictures/005219efae8c17ab476ade1e73ae8766.png"/>
+    <link rel="shortcut icon" type="image/webp" href="/Pictures/005219efae8c17ab476ade1e73ae8766.webp"/>
 </head>
 <body>
     <h1 class="title">Arctic Moneys Releasefest!</h1>
     <img class="yellow_banner" src="/Pictures/zigzag.svg" alt="yellow banner">
-    <h2 class="second_title">Kul att du vill joina festen!<br>Som grädde på moset bjussar Pustervik och Arctic Monkeys <br>även på en LP-skiva av "D is for Dangerous"<br> - SIGNERAT TILL DIG!<br><br> Bandet ger en personlig autograf till:<br><br> Mark <br><br> Din gåva adderas automatiskt när du köper din biljett.<br> LP-skivan kommer du att få på eventet när din biljet scannas in.</h2>
+    <h2 class="second_title">Kul att du vill joina festen!<br>Som grädde på moset bjussar Pustervik och Arctic Monkeys <br>även på en LP-skiva av "D is for Dangerous"<br> - SIGNERAT TILL DIG!<br><br> Bandet ger en personlig autograf till:<br><br><p id="name_holder"></p> <br> Din gåva adderas automatiskt när du köper din biljett.<br> LP-skivan kommer du att få på eventet när din biljet scannas in.</h2>
     <form class="form_container">
         <div class="form-group">
           <label for="exampleFormControlInput1">Mail:</label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Skriv här">
+          <input type="email" id="mail_holder" class="form-control" id="exampleFormControlInput1" placeholder="Skriv här" value="" />
         </div>
         <div class="form-group">
           <label for="exampleFormControlSelect1">Antal biljetter:</label>
@@ -36,4 +36,5 @@
       </form>
     
 </body>
+<script src="/form.js"></script>
 </html>

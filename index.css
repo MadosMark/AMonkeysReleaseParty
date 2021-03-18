@@ -84,8 +84,13 @@ body {
   width: 20rem;
   height: 10rem;
   margin-left: 4rem;
-  animation: faderIn ease 5s;
-  -webkit-animation: faderIn ease 5s;
+  animation: 2s slide-right 2s forwards;
+  transform: translateX(-120%);
+}
+@keyframes slide-right {
+  to {
+    transform: translateX(0);
+  }
 }
 
 @keyframes faderIn {
@@ -196,9 +201,9 @@ body {
   }
 }
 
-.text_welcome {
-  margin-top: -64rem;
-  margin-left: -5rem;
+#text_welcome {
+  margin-top: -63.5rem;
+  margin-left: -4rem;
   font-size: 16px;
   font-family: "Bebas";
   transform: rotate(-10deg);
@@ -211,8 +216,8 @@ body {
   margin-top: -62rem;
   margin-left: 1rem;
   transform: rotate(-42deg);
-  animation: fadeIn ease 18s;
-  -webkit-animation: fadeIn ease 18s;
+  /* animation: fadeIn ease 18s;
+  -webkit-animation: fadeIn ease 18s; */
 }
 .tickets_container {
   height: 3rem;
@@ -224,8 +229,8 @@ body {
   margin-right: 10rem;
   margin-top: 90rem;
   z-index: 1;
-  animation: fadeIn ease 15s;
-  -webkit-animation: fadeIn ease 15s;
+  /* animation: fadeIn ease 15s;
+  -webkit-animation: fadeIn ease 15s; */
 }
 
 .buy_tickets {
@@ -725,6 +730,13 @@ body {
     width: 550px;
     height: 270px;
     margin-left: 5rem;
+    animation: 2s slide-right 2s forwards;
+    transform: translateX(-250%);
+  }
+  @keyframes slide-right {
+    to {
+      transform: translateX(0);
+    }
   }
 
   .text_content_container {
@@ -896,7 +908,7 @@ body {
   .buy_tickets {
     margin-top: -2rem;
   }
-  .text_welcome {
+  #text_welcome {
     margin-bottom: 2rem;
   }
   .arrow_tickets {
@@ -1001,7 +1013,7 @@ body {
     margin-left: 5rem;
   }
 
-  .text_welcome {
+  #text_welcome {
     margin-left: 1rem;
   }
 }
