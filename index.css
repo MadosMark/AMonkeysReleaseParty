@@ -898,7 +898,7 @@ body {
   .the_night_text {
     font-size: 18px;
     width: 35rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
   }
   .schema_list {
     display: grid;
@@ -906,14 +906,14 @@ body {
     text-align: center;
   }
   .buy_tickets_container {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
   .number_align,
   .text_align {
     font-size: 18px;
   }
   .arrow_down_container_four {
-    margin-top: 20rem;
+    margin-top: 15rem;
     height: 0.5rem;
   }
 
@@ -942,7 +942,7 @@ body {
   .footer_holder {
     clear: both;
     position: relative;
-    margin-top: 28.5rem;
+    margin-top: 23.8rem;
   }
 }
 
