@@ -12,9 +12,11 @@ let holdah = document.getElementById('mail_holder');
 if (mail) {
     holdah.value = mail;
 } else {
-    holdah.value = '';
+    holdah.value = ' exempel@exempel.se';
 }
 let holla = document.getElementById('name_holder');
 if (namn) {
     holla.textContent = namn;
+} else {
+    holla.textContent = 'Förhoppningsvis dig!'
 }
