@@ -14,4 +14,4 @@ Link to website: https://am-release-party.netlify.app/
 - Consider adding a meta-description for better SEO practice.
 - Maybe you could crop some images to use for mobile use to save some space?
 - Nice looking CSS. Good and consistent indentations. Maybe add some comments throughout your code to make it easier to navigate.
-- I'm basically just picking nits. I think the website looks really great! Great design and great execution, well done!
+- I'm basically just picking nits. I think the website looks really great! Great design and great execution, well done! :)
