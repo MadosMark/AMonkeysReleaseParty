@@ -8,4 +8,4 @@ Release party for Arctic Monkeys - With personalized invite.
 Link to website: https://am-release-party.netlify.app/
 
 # Website Layout:
-<a href="url"><img src="https://github.com/MadosMark/AMonkeysReleaseParty/blob/main/Screenshot%202021-04-20%20at%2013.39.32.png" align="left" height="550" width="300" ></a>
+<a href="url"><img src="https://github.com/MadosMark/AMonkeysReleaseParty/blob/main/Screenshot%202021-04-20%20at%2013.39.32.png" align="left" height="550" width="320" ></a>
